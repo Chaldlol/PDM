@@ -2,6 +2,26 @@
 Work Assignment To Design a Program That is Dummy Proof for Data-Entry that will automate the save and push process to an excel that is treated as the main database. 
 
 
+***************************************************************************************8
+***************************************************************************************8
+STILL A WORK IN PROGRESS. THE FORM WILL OPEN BUT IT WILL FULLY SEND TO EXCEL DUE TO KEY AND ADDING EXTRA CODE WITHOUT BEING ORGANIZED.
+ALSO ADDING IN CODE STILL.
+
+***************************************************************************************
+***************************************************************************************
+
+FROM THE TIME OF THIS UPLOAD, I AM TRYING TO WORK ON NAMING THE VARIABLES OF THE COMPONENTS BASED ON HOW MANY COMPONENTS ARE IN THE LOCATION SECTION
+THIS IS NOT COMPLETE AT ALL AND IS WHY YOU ONLY SEE IT AT THE TOP
+
+***************************************************************************************
+***************************************************************************************
+THIS WILL BE UTILIZED ON A WORK SERVER OUT OF A NETWORK DRIVE. ONLY THE SAME 3 PEOPLE ARE UTILIZING THIS FOR THE LOGIN BUT STILL WANT A PASSCODE SYSTEM.
+ANY IDEAS TO CLEAN UP THE GUI OR OTHER IDEAS FEEL FREE
+
+****************************************************************************************
+THANK YOU
+***************************************************************************************
+
 
 
 This Code Will Present a Program To Any New User That Will Open Up a Data Form With A Secure Login Access Authenticator Audit For The Sensitive Data Collection.
