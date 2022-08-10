@@ -45,43 +45,23 @@ Simple Form
 
 TO DO:
 
-•	Audit Form Layout To Function
-•	Audit Form Buttons To Function
-o	Update
-o	Delete
-o	!Send It!
-•	Submit Button to Capture Form Data and Send to Audit Form
-o	Activate Clear Form Too Clear All Except Login and Location
-•	LoginLock Checkbox Too Lock/Disable Login ComboBox
-•	Use ListBox1 To Control Image Viewer1
-•	Use ListBox2 to Control Image Viewer2
-•	Edit the Component ComboBox
-o	Have Values Change Based on ComboBox Selection For Location
-•	Format Everything Too Professional Scaling Level
-•	Create How To PowerPoint With New Photos of Program
-•	Enable Secure Login
-o	This will Enable the CheckBox to Lock Login After Sign In
-•	Column1
-o	Formatting
-o	Secure Login Here?
-o	Submit Button Change
-•	Column2
-o	Formatting
-o	Remove Folder Browse
-	Add Images Too List Directly
-o	Add ListBox2
-	Value Change Based On ListBox1 Selection
-•	Column3
-o	Display Image1 From Selection from ListBox1
-o	Add Image2
-	Value Change Based On ListBox2
-o	Add Labels or sg.Text For Images
-•	Column4
-o	Formatting
-o	Allow Single Line Select
-	If A Single Line is Selected and Update Button is pushed:
-•	Update That Line With New Values From Form
-•	Move Update Button?
-•	Test For Bugs
-•	Create Backup Saving Directory
-
+Audit ListBox to Fully Function
+  -add new data
+  -update/edit selected line
+  -delete selected line
+  
+ Component listbox
+  -If location is = to that then listbox will give u that list for that location
+ 
+ Locations
+  - to select the location will automatically change the photo to that location instead of the double selection
+  
+  - finish security system
+  -it is missing an except or finally for the ending of that code but i am lost on how to finish it.
+  -once that is functional. I need to add it in to the main program.
+  
+  -I need to make sure that the program will submit the audit listbox lines all into an excel file for database. 
+  
+  prefer csv but im still learning.
+  
+  
