@@ -14,14 +14,38 @@ import os
 #       OB1-4A, OB1-5, OB3-6, OB3-8=fourComp
 #       OB3-2, OB3-4, OB3-7=twoComp
 
+# dictionary example for you to fix
+ob_comp_dict = dict()
+ob_comp_dict = {
+    'OB1' : ['L1', 'L2', 'L3', 'L4', 'L5', 'L6', 'L7', 'L8', 'R1', 'R2', 'R3', 'R4', 'R5', 'R6', 'R7', 'R8', 'M'],
+    'OB2' : ['L1', 'L2', 'R1', 'R2', 'M'],
+    'OB3' :  ['L1', 'L2', 'L3', 'L4', 'R1', 'R2', 'R3', 'R4', 'M']
+}
+print(ob_comp_dict) # prints your WHOLE dictionary. 
+
+ob_comp_dict['OB1'] # will access the list stored in OB1 
+
+print(ob_comp_dict.keys())
+print(my_dict.values())
+print(my_dict.get('Dave'))
+
+# End dictionary example 
+
+
+# Components
 eightComp = ['L1', 'L2', 'L3', 'L4', 'L5', 'L6', 'L7', 'L8', 'R1', 'R2', 'R3', 'R4', 'R5', 'R6', 'R7', 'R8', 'M']
 sevenComp = ['L1', 'L2', 'L3', 'L4', 'L5', 'L6', 'L7', 'R1', 'R2', 'R3', 'R4', 'R5', 'R6', 'R7', 'M']
 fiveComp = ['L1', 'L2', 'L3', 'L4', 'L5', 'R1', 'R2', 'R3', 'R4', 'R5', 'M']
 fourComp = ['L1', 'L2', 'L3', 'L4', 'R1', 'R2', 'R3', 'R4', 'M']
 twoComp = ['L1', 'L2', 'R1', 'R2', 'M']
+
+
+
 myTime = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
 componentDir = ['L1', 'L2', 'L3', 'L4', 'L5', 'L6', 'L7', 'L8', 'R1', 'R2', 'R3', 'R4', 'R5', 'R6', 'R7', 'R8', 'M']
 imgDir = ['C:/Users/chartze/Desktop/pDm/Photo/Photo2/*.png/']
+# TODO Look into using os.getcwd() to get the current working directory of the running script. 
+
 # Add some color to the window
 sg.theme('DarkTeal9')
 EXCEL_FILE = 'Tester.xlsx'
